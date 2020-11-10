@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css.css"/>
+	<title> Bookstore </title>
+</head>
+<body>
+<div id="sadrzaj">
+	<div class="txt-content">
+		<h1><img src="https://image.flaticon.com/icons/png/512/130/130304.png" style="max-width:60px;max-height:60px"></img>      Dobrodošli na online Bookstore      <img src="https://image.flaticon.com/icons/png/512/130/130304.png" style=max-width:60px;max-height:60px"></img></h1>
+	</div>
+	
+	<div id="right">
+		<div class="first-box">
+			<center><strong>O nama:</font></strong></center>
+			<center><img class="myImg" src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/12961647_1089240374455209_1380323896095173561_n.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=UAkF1guTQNoAX8A1NLF&_nc_ht=scontent-vie1-1.xx&oh=cbebba9cd8de33fd1941e705684cd3ab&oe=5FCF9AC1"></img></br>
+			Silvio Pejić</br> FPMOZ, Informatika </br> Prebivalište: Orašje </br> Srednja škola: Školski Centar fra Martina Nedića </br> Datum rođenja: 25.11.1999. </center>
+			<center><img class="myImg" src="https://scontent-vie1-1.xx.fbcdn.net/v/t31.0-8/28946998_1851452314879296_5146595746919815011_o.jpg?_nc_cat=105&ccb=2&_nc_sid=cdbe9c&_nc_ohc=CWGoI8PrM-MAX_Ti8l-&_nc_ht=scontent-vie1-1.xx&oh=c56c2df46cd778a2b1141187d48f97ac&oe=5FD09D47"></img>
+			</br> FPMOZ, Informatika </br> Prebivalište: Orašje </br> Srednja škola: Školski Centar fra Martina Nedića </br> Datum rođenja: 13.05.1999. </center>
+			</br>Online Bookstore - Copyright © 2020
+		</div>
+	</div>  
+	<div id="left">
+		<div class="first-box">
+			<center><strong>Unestite podatke za prijavu:</strong></center>
+			<form>
+				<label for="fname">Korisničko ime:</label><br>
+				<input type="text" id="fname" name="fname" placeholder="korisničko ime"><br>
+				<label for="lname">Lozinka</label><br>
+				<input type="text" id="lname" name="lname" placeholder="lozinka"><br><br>
+				<button onclick="potvrda()">Prijava</button>
+			</form></br>
+			<a href="#"><img class="teh-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/220px-Laravel.svg.png" alt="Laravel"></a>
+			<a href="#"><img class="teh-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png" alt="Bootstrap"></a>
+			<a href="#"><img class="teh-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" alt="Vue.js"></a>
+		</div>
+	</div>
+	<div class="big-content">
+		<p>
+			<h2 style="text-align:center;">Dobrodošli na naslovnu stranicu projekta "Online Bookstore"!</h2>
+			<h3 style="text-align:center;">Ovdje predstavljamo projekt koristeći znanje stečeno u kolegiju "Računalni praktikum 2".</h3><hr>
+			<h1>Zašto smo izabrali ovu temu?</h1> U slobodno vrijeme volimo čitati knjige, ali nažalost često nailazimo na problem
+			da nam dosta velik broj knjiga nije dostupan u sredini u kojoj živimo, a stranice na kojim možemo kupiti željene knjige online
+			imaju malu ponudu, ili zbog određenih problema ne privlače kupce. Stoga želimo napraviti vlastiti sustav za prodaju knjiga
+			u kojem ćemo osobno nuditi kupcima one knjige koje žele, ali bez potrebe da fizički obavljaju kupnju, nego da je mogu obaviti putem interneta.
+			<h1>Koje ćemo tehnologije koristiti?</h1>Što se tiče PHP framework-a, odabrali smo Laravel koji nam se svidio, a koji je trenutno ocijenjen kao najbolji
+			na mnogim ranking listama. Dosta je prikladan u razvijanju aplikacija, koliko god kompleksne i bez obzira na veličinu.
+			Ima mnoge značajke koje bi mogle pomoći pri uređivanju aplikacija: sigurnost, autentičnost, neometano kretanje podataka i slično. Najviše se ističu brzina i
+			sigurnost, što se i očekuje od modernih aplikacija. Koristit ćemo Bootstrap i Vue.js, koje smo već ranije upoznali u kolegiju "Informatički projekt 2",
+			jednostavno se koriste i pružaju razne mogućnosti pri uređivanju web stranica.<h1>Kakva je usluga dostupna korisnicima/kupcima?</h1>Kupci će moći pretraživati knjige u ponudi, čitati detalje (autor, broj stranica, cijena i sl.) te,
+			ukoliko se registriraju kao korisnici ovog sustava,"ubacivati" knjige u košaru za kupnju. Kada odluče kupiti odabranu knjigu ili knjige, u košarici će potvrditi cijenu, način plaćanja i isporuku na određenu adresu.
+			Korisnici će također moći uređivati svoje osobne podatke.</br></br>  Link na viziju projekta: <a href="https://drive.google.com/file/d/1hKYFvV9aNhiJ7Xdkxov8dsOkGH2cHD7D/view?usp=sharing">Bookstore vizija</a>
+		</p>
+		<div id="dm">
+			<a href="#"><img src="https://cdn2.downdetector.com/static/uploads/c/300/7f58d/twitter-logo_17.png" alt="Twitter" style="max-width: 40px;" /></a>
+			<a href="#"><img src="https://www.freeiconspng.com/uploads/photos-facebook-logo-png-transparent-background-13.png" alt="Facebook"/></a>
+			<a href="#"><img src="https://i.pinimg.com/originals/de/1c/91/de1c91788be0d791135736995109272a.png" alt="YouTube"style="max-width: 40px;" /></a>
+			<a href="#"><img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" alt="Instagram" style="max-width: 40px;" /></a>
+		</div>
+	</div>
+
+</div>
+<script>
+function potvrda(){
+	alert("Uspješno ste se prijavili!")
+}
+
+</script>
+</body>
+</html>

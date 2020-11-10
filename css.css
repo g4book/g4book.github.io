@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+
+body {
+	background-color: #ffffff;
+	background-image: url(https://images2.alphacoders.com/261/thumb-1920-26102.jpg);
+	background-size: cover;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+#sadrzaj {
+	border-radius: 5px;
+	background-color: rgba(76, 175, 80, 0);
+	width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#right {
+	float: right;
+	width: 320px;
+}
+
+#left {
+	float: left;
+	width: 320px;
+}
+
+
+div.first-box {
+	padding: 3px;
+	margin: 10px;
+	width: 300px;
+	overflow: hidden;
+	border-radius: 10px;
+	line-height: 25px;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	font-size: 15px;
+}
+
+
+/*Naslov između lijevog i desnog stupca*/
+.txt-content {
+	width: 1000px;
+	margin: auto;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	overflow: hidden;
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+/*Veći sadržaj*/
+.big-content {
+	width: 948px;
+	padding: 5px;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	border: 1px solid #f6f6f6;
+	line-height: 20px;
+	overflow: hidden;
+	font-size: 17px;
+}
+
+
+/* slike "O nama" */
+.myImg {
+	border-radius: 5px;
+	max-width:240px;
+	max-height:250px
+}
+
+
+#dm img {
+	height: 30px;
+	width: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#dm a:link {
+	padding-left: 90px;
+	padding-right: 90px;
+}
+.teh-icon{
+	max-width:150px;
+	max-height:150px;
+	padding:10px;
+}
